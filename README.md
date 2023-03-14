@@ -7,7 +7,7 @@ jgit-cookbook
 Provides examples and code snippets for the [JGit](https://eclipse.org/jgit/) Java Git implementation. 
 
 The JGit framework is rich and diverse, it has two layers, a low-level _api_ and a higher-level set of _porcelain_ commands. This can be a bit intimidating at first as there are lots of classes, some of which are not relevant for most tasks.
-
+adding new lines here
 This project tries to provide a collection of ready-to-run snippets which provide a quick start for building functionality using JGit. 
 
 Please make sure to take a look at the nicely written [introduction](http://www.codeaffine.com/2015/12/15/getting-started-with-jgit/) and also use the existing [JavaDoc](http://download.eclipse.org/jgit/site/6.3.0.202209071007-r/apidocs/) and the [User Guide](http://wiki.eclipse.org/JGit/User_Guide) as well, as they are well done and provide detailed information and a general overview of JGit respectively.
@@ -41,9 +41,10 @@ Please make sure to take a look at the nicely written [introduction](http://www.
 * [Open an existing repository](https://github.com/centic9/jgit-cookbook/blob/master/src/main/java/org/dstadler/jgit/OpenRepository.java)
 * [Create a new repository](https://github.com/centic9/jgit-cookbook/blob/master/src/main/java/org/dstadler/jgit/CreateNewRepository.java)
 
-##### Porcelain commands
+
 
 * [Initialize a new repository](https://github.com/centic9/jgit-cookbook/blob/master/src/main/java/org/dstadler/jgit/porcelain/InitRepository.java)
+##### Porcelain commands
 * [Add a new file to the index](https://github.com/centic9/jgit-cookbook/blob/master/src/main/java/org/dstadler/jgit/porcelain/AddFile.java)
 * [Commit a file to an existing repository](https://github.com/centic9/jgit-cookbook/blob/master/src/main/java/org/dstadler/jgit/porcelain/CommitFile.java)
 * [Commit all changes](https://github.com/centic9/jgit-cookbook/blob/master/src/main/java/org/dstadler/jgit/porcelain/CommitAll.java)
@@ -114,7 +115,7 @@ Please make sure to take a look at the nicely written [introduction](http://www.
 
 * There is a standalone sub-project in directory [httpserver](https://github.com/centic9/jgit-cookbook/blob/master/httpserver) which 
 starts up a simple HTTP Git server based on the JGit GitServlet.
-
+adding more text here
 Just import the project in your IDE and start up the `Main` application, see the Comments in the code for more details.
 
 Another simple way to start the sample-server is to run `./gradlew run` in the httpserver-directory.
@@ -125,7 +126,7 @@ Another simple way to start the sample-server is to run `./gradlew run` in the h
 
 * Implementation of a simple git server serving anynymous `git:` protocol: https://github.com/orange-cloudfoundry/cf-ops-automation-broker/blob/8bcb286652fae2b8fe2ccc9f67c53cb0272bcbd0/cf-ops-automation-broker-core/src/main/java/com/orange/oss/cloudfoundry/broker/opsautomation/ondemandbroker/git/GitServer.java
 * Usage in tests: https://github.com/orange-cloudfoundry/cf-ops-automation-broker/blob/8bcb286652fae2b8fe2ccc9f67c53cb0272bcbd0/cf-ops-automation-bosh-broker/src/test/java/com/orange/oss/cloudfoundry/broker/opsautomation/ondemandbroker/sample/BoshServiceProvisionningTest.java#L134
-
+hello
 #### Missing snippets
 
 * Iterate all commits of a repository: https://gerrit.googlesource.com/plugins/branch-network/+log/refs/heads/master/src/main/java/com/googlesource/gerrit/plugins/branchnetwork/data/JGitFacade.java
