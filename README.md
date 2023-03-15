@@ -126,7 +126,6 @@ Another simple way to start the sample-server is to run `./gradlew run` in the h
 
 * Implementation of a simple git server serving anynymous `git:` protocol: https://github.com/orange-cloudfoundry/cf-ops-automation-broker/blob/8bcb286652fae2b8fe2ccc9f67c53cb0272bcbd0/cf-ops-automation-broker-core/src/main/java/com/orange/oss/cloudfoundry/broker/opsautomation/ondemandbroker/git/GitServer.java
 * Usage in tests: https://github.com/orange-cloudfoundry/cf-ops-automation-broker/blob/8bcb286652fae2b8fe2ccc9f67c53cb0272bcbd0/cf-ops-automation-bosh-broker/src/test/java/com/orange/oss/cloudfoundry/broker/opsautomation/ondemandbroker/sample/BoshServiceProvisionningTest.java#L134
-hello
 #### Missing snippets
 
 * Iterate all commits of a repository: https://gerrit.googlesource.com/plugins/branch-network/+log/refs/heads/master/src/main/java/com/googlesource/gerrit/plugins/branchnetwork/data/JGitFacade.java
@@ -144,7 +143,11 @@ hello
 
 If you find these snippets useful and would like to support it, you can [Sponsor the author](https://github.com/sponsors/centic9)
 
-#### Sources
+
+
+akj
+adkh
+akl
 
 The following sources were used to build the snippets:
 

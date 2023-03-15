@@ -65,7 +65,11 @@ public class UpdateIndex {
 		Status status = git.status().call();
 		return status.getModified();
 	}
-
+//h
+//h
+//h
+//h
+//h
 	private static class AssumeChangedCommand extends GitCommand<String> {
 		private final String fileName;
 		private final boolean assumeUnchanged;

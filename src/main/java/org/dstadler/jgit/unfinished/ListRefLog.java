@@ -42,7 +42,7 @@ public class ListRefLog {
                 List<Ref> refs = git.branchList().call();
                 for (Ref ref : refs) {
                     System.out.println("Branch: " + ref + " " + ref.getName() + " " + ref.getObjectId().getName());
-
+// test
                     listReflog(repository, ref);
                 }
 
